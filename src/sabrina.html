@@ -1,11 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Список врачей</title>
+    <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-    
+<body class="max-w-[1200px] mx-auto">
+    <header class=" py-[20px] m-auto">
+        <nav class="flex items-center gap-[30px]">
+          <img src="./img_Sab/logo (1).svg" alt="" />
+          <div
+            class="lg:flex hidden justify-between w-full text-[#4F4F4F] items-center"
+          >
+            <div>
+              <p class="text-[18px]">8 (495) 926-06-03</p>
+              <div class="flex items-center gap-[5px]">
+                <img src="./img_Sab/button.png" alt="" />
+                <p>Whatsapp</p>
+              </div>
+            </div>
+            <div>
+              <p>info@gormedcentre.ru</p>
+              <p>Заказать звонок</p>
+            </div>
+  
+            <div>
+              <p>г. Мытищи,</p>
+              <p>ул.Рождественская, д.7</p>
+            </div>
+            <div>
+              <p>Ежедневно</p>
+              <p>с 9.00 до 21.00</p>
+            </div>
+            <div class="flex gap-[10px] items-center">
+              <div class="rounded-md">
+                <img src="./img_Sab/search.png" alt="" />
+              </div>
+              <div class="p-[8px] bg-[#E3EFF5] text-[#00578A] rounded-md">
+                Личный кабинет
+              </div>
+            </div>
+          </div>
+          <div class="burger flex items-center gap-2 lg:hidden w-[50%]">
+            <img src="./img_Sab/call.png" alt="" class="lg:hidden" />
+            <p>Меню</p>
+            <img src="./img_Sab/burger.png" alt="" class="lg:hidden" />
+          </div>
+        </nav>
+        <nav
+          class="lg:flex justify-between items-center shadow-lg p-[5px] hidden">
+        <select>
+            <option value="">Направления</option>
+          </select>
+          <p>Услуги</p>
+          <p>Врачи</p>
+          <p>Отзывы</p>
+          <p>Акции</p>
+          <select>
+            <option value="">О центре</option>
+          </select>
+          <p>Детство</p>
+          <p>Контакты</p>
+          <div class="flex items-center gap-[20px]">
+            <div class="flex items-center gap-[5px]">
+              <img src="./img_Sab/icon.png" alt="" />
+              <p>Версия для слабовидящих</p>
+            </div>
+            <div class="bg-[#00578A] text-white p-[10px] rounded-md">
+              Запись на приём
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <section  class="bg-gray-100 p-6">
+            <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow">
+                <h2 class="text-2xl font-bold mb-4">Врачи</h2>
+                <table class="w-full border-collapse">
+                    <tbody>
+                        <tr>
+                            <td class="border px-4 py-2 bg-blue-100 text-blue-700 font-semibold">
+                                <a href="#" class="flex justify-between items-center w-full">
+                                    Аллерголог-иммунолог <span>➡</span>
+                                </a>
+                            </td>
+                            <td class="border px-4 py-2">Нарколог</td>
+                            <td class="border px-4 py-2">Терапевт</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Гастроэнтеролог</td>
+                            <td class="border px-4 py-2">Невролог</td>
+                            <td class="border px-4 py-2">Травматолог</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Гинеколог</td>
+                            <td class="border px-4 py-2">Отоларинголог</td>
+                            <td class="border px-4 py-2">Уролог-андролог</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Дерматолог</td>
+                            <td class="border px-4 py-2">Проктолог</td>
+                            <td class="border px-4 py-2">Физиотерапевт</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Кардиолог</td>
+                            <td class="border px-4 py-2">Психиатр</td>
+                            <td class="border px-4 py-2">Хирург</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Косметолог</td>
+                            <td class="border px-4 py-2">Пульмонолог</td>
+                            <td class="border px-4 py-2">Эндокринолог</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">Массажист</td>
+                            <td class="border px-4 py-2">Стоматолог</td>
+                            <td class="border px-4 py-2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+      
+    </main>
+   
 </body>
 </html>
