@@ -13,6 +13,13 @@
     #7D8DD0 100%
   );
 }
+.bg_3{
+  background-image: linear-gradient(
+    to left,
+    #0074B8 30%,
+    #00BAC6 100%
+  );
+}
 /* .sec2bg {
   background-image: url(./img_Akobir/svg\ \(1\).png);
   background-repeat: no-repeat;
