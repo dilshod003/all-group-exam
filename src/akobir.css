@@ -1,0 +1,26 @@
+.sec1 {
+  background-image: linear-gradient(
+    to left,
+    #bf89c0 10%,
+    #7a8dcf 80%,
+    #02d7bd 100%
+  );
+}
+.secondbg{
+  background-image: linear-gradient(
+    to left,
+    #2DBDC4 30%,
+    #7D8DD0 100%
+  );
+}
+/* .sec2bg {
+  background-image: url(./img_Akobir/svg\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+@layer utilities {
+  .list-purple li::marker {
+    color: #D092C6; 
+  }
+}
+
