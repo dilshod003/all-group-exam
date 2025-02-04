@@ -1,3 +1,7 @@
 .scroll-all {
   overflow-x: scroll;
 }
+
+.gradient {
+  background: linear-gradient(275.89deg, #0074b8 0%, #02b0c5 100%);
+}
