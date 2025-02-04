@@ -1,0 +1,27 @@
+.sec1 {
+  background-image: linear-gradient(
+    to left,
+    #bf89c0 10%,
+    #7a8dcf 80%,
+    #02d7bd 100%
+  );
+}
+.secondbg {
+  background-image: linear-gradient(to left, #2dbdc4 30%, #7d8dd0 100%);
+}
+.bg_3 {
+  background-image: linear-gradient(to left, #0074b8 30%, #00bac6 100%);
+}
+.bg_4 {
+  background-image: linear-gradient(to left, #0074B8 30%, #02B4C6 100%);
+}
+/* .sec2bg {
+  background-image: url(./img_Akobir/svg\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+@layer utilities {
+  .list-purple li::marker {
+    color: #d092c6;
+  }
+}
